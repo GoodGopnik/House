@@ -17,3 +17,83 @@ body {
     --black: #242B33;
     --black-light: #2D343C;
 }
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.house {
+    background: url(../img/block-1/Rectangle.jpg);
+    min-height: 840px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.icon-img p {
+    font-size: 12px;
+    color: var(--with);
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-align: center;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu a {
+    text-decoration: none;
+    margin-left: 40px;
+}
+.nav-menu a :hover {
+    color: var(--gold);
+}
+.nav-menu a :active {
+    color: var(--grey-black);
+}
+.nav-menu li {
+    list-style-type: none;
+    font-family: 'Raleway';
+    color: var(--with);
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-text {
+    margin-top: 220px;
+}
+.nav-text h1 {
+    max-width: 555px;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    color: var(--gold);
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 340px;
+}
+.nav-footer p {
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: var(--with);
+    font-weight: 400;
+}
+.nav-footer a {
+    text-decoration: none;
+    color: var(--with);
+}
+.nav-footer img {
+    margin-right: 15px;
+}
+.nav-footer svg {
+    margin-right: 15px;
+}
