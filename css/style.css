@@ -1,0 +1,19 @@
+  
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --with: #FFFFFF;
+    --gold: #D4C17F;
+    --grey: #E7E7E7;
+    --grey-black: #BEBEBE;
+    --black: #242B33;
+    --black-light: #2D343C;
+}
