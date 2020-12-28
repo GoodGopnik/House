@@ -25,6 +25,21 @@
         align-items: center;
     }  
 }
+@media(max-width: 640px) {
+    .wrapper .infrastructure {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .wrapper .infrastructure::after {
+        right: 30px;
+        top: -50px;
+    }
+    .infrastructure-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media(max-width: 480px) {
     .house .nav-text h1 {
         font-size: 38px;
