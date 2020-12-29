@@ -115,6 +115,7 @@ body {
     opacity: 0.1; 
     right: 100px;
     top: -50px;
+    bottom: 100px;
 }
 .infrastructure-block {
     display: flex;
