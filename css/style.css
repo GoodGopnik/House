@@ -179,10 +179,94 @@ body {
 .apartments-about-block img {
     padding-bottom: 50px;
 }
+/****************** viewing ******************/
+.viewing {
+    background: url(../img/block-4/Rectangle.jpg)center/cover no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.viewing-about {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+.viewing-text {
+    max-width: 535px;
+}
+.viewing-text h2 {
+    font-size: 36px;
+    color: var(--gold);
+    font-weight: 700;
+    font-family: 'Playfair Display';
+}
+.viewing-text p {
+    font-size: 16px;
+    color: var(--with);
+    font-weight: 400;
+    font-family: 'Raleway';
+    text-align: left;
+}
+.viewing-input {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.viewing-input-block-1 {
+    margin: 0 10px;
+}
+.viewing-input-block-2 {
+    margin: 0 10px;
+}
+.viewing-input-block-1 input {
+    background: rgba(255, 255, 255, 0.178);
+    color: var(--gold);
+    text-align: center;
+    padding: 12px 50px;
+    outline: none;
+}
+.viewing-input-block-1 p {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--with);
+    font-family: 'Raleway';
+    margin-top: 35px;
+    text-align: center;
+}
+.viewing-input-block-2 input {
+    background: rgba(255, 255, 255, 0.178);
+    color: var(--gold);
+    text-align: center;
+    padding: 12px 50px;
+    outline: none;
+}
+.viewing-input-block-2 button {
+    background: var(--gold);
+    text-decoration: none;
+    outline: none;
+    color: var(--with);
+    margin-top: 35px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-align: center;
+    max-width: 285px;
+    height: 50px;
+    width: 100%;
+}
+.viewing-input-block-2 button:hover {
+    transition: 0.7s;
+    color: var(--grey-black);
+    background: var(--black-light);
+}
+.viewing-input-block-2 button:active {
+    background: var(--with);
+}
 
 
 
 
 
-
-
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
