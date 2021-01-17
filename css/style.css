@@ -372,7 +372,49 @@ body {
 .questions-block-input button:active {
     background: var(--with);
 }
-
+/****************** footer ******************/
+.footer-blcok {
+    background: var(--black-light);
+    padding: 60px;
+}
+.footer-about-block {
+    display: flex;
+    justify-content: space-around;
+}
+.fot-text {
+    font-size: 12px;
+    color: var(--with);
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-align: center;
+}
+.footer-block-text a {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--with);
+    text-decoration: none;
+}
+.footer-block-text p {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--with);
+    text-decoration: none;
+}
+.footer-block-text a:hover {
+    color: var(--gold);
+    transition: 0.7s;
+}
+.footer-block-text a:active {
+    color: var(--black-light);
+}
+.email-fot {
+    color: var(--gold);
+}
+.fot-icon img{
+    margin: 0 10px;
+}
 
 
 
