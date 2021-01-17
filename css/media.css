@@ -24,6 +24,22 @@
         padding-top: 30px;
         order: 5;
     }
+    .questions-block-input {
+        display: flex;
+        flex-direction: column;
+    }
+    .questions-block-about .questions-block-input p {
+        margin: 10px 10px;
+    }
+    .questions-block-about .questions-block-input input {
+        margin: 10px 10px;
+    }
+    .questions-block-about .questions-block-input button {
+        margin: 10px 10px;
+    }
+    .wrapper .questions-block {
+        padding: 20px;
+    }
 }
 @media(max-width: 750px) {
     .navigation {

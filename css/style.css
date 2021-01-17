@@ -320,11 +320,58 @@ body {
     padding-bottom: 100px;
     color: var(--gold);
 }
-
-
-
-
-
+/****************** questions ******************/
+.questions-block {
+    background: var(--black);
+    padding: 100px;
+}
+.questions-block-about h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    font-family: 'Playfair Display';
+    color: var(--gold);
+    font-size: 36px;
+    font-weight: 700;
+}
+.questions-block-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.questions-block-input p {
+    width: 260px;
+    color: var(--with);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0 10px;
+}
+.questions-block-input input {
+    background: rgba(255, 255, 255, 0.178);
+    color: var(--gold);
+    text-align: center;
+    width: 255px;
+    height: 50px;
+    outline: none;
+    margin: 0 10px;
+}
+.questions-block-input button {
+    width: 255px;
+    height: 50px;
+    background: var(--gold);
+    color: var(--with);
+    margin: 0 10px;
+}
+.questions-block-input button:hover {
+    transition: 0.7s;
+    color: var(--grey-black);
+    background: var(--black-light);
+}
+.questions-block-input button:active {
+    background: var(--with);
+}
 
 
 
